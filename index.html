@@ -48,10 +48,10 @@
               <heading>Curriculum Vitae</heading>
               <p> Click here to download my <a href="cv/cv.pdf">Curriculum Vitae</a></p>
 
-              <!-- <object data="cv.pdf" type="application/pdf" width="100%" height="800" style="display:block;">
+              <object data="cv.pdf" type="application/pdf" width="100%" height="500" style="display:block;">
                 <param name="view" value="FitV" />
-                <embed src="cv/cv.pdf" type="application/pdf" width="100%" height="800" />
-              </object> -->
+                <embed src="cv/cv.pdf" type="application/pdf" width="100%" height="500" />
+              </object>
             </td>
           </tr>
         </tbody></table>
@@ -70,15 +70,16 @@
             </tr>
           </tbody>
         </table>
-  <!-- ===========================第一段经历====================== -->
+ 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr onmouseout="hybrid_robot_webots_stop()" onmouseover="hybrid_robot_webots_start()">
-            <td style="padding-left:10px;padding-top:10px;width:25%;vertical-align:middle">
+<!-- ===========================第一段经历====================== -->
+          <tr onmouseout="robot_navigation_stop()" onmouseover="robot_navigation_start()">
+            <td style="padding-left:10px;padding-top:0px;width:25%;vertical-align:middle">
               <div class="one">
                 
-                <div class="two" id='hybrid_robot_webots'>
+                <div class="two" id='robot_navigation'>
                   <video  width=170% height=160% muted autoplay loop>
-                  <source src="images/hybrid-robot-webots.MP4" type="video/mp4">
+                  <source src="images/robot_navigation.MP4" type="video/mp4">
                   "Your browser does not support the video tag."
                   </video>
                 </div>
@@ -95,28 +96,28 @@
                 hybrid_robot_webots_stop()
               </script> -->
             </td>
-            <td style="padding-left:100px;padding-top:40px;width:75%;vertical-align:middle">
+            <td style="padding-left:100px;padding-top:60px;width:75%;vertical-align:middle">
               <a href="">
-                <papertitle>Hybrid jumping robot with both legs and wheels based on Webots</papertitle>
+                <papertitle>Mapping, relocalization, and navigation system for three-dimensional lidar</papertitle>
               </a>
               <br>
-              <strong>Hang Liu</strong>,
+              <strong>Hang Liu</strong>, Jingzhou Lei
               <br>
-              <em>research project</em>
+              <em>For RoboMaster competition in 2023,2024</em>
               <br>
+              <em></em>Source: </em><a href="https://github.com/66Lau/NEXTE_Sentry_Nav">Github repo</a>
               <!-- <a href="https://youtu.be/zRdr7dWsLr4">video</a>
               /
               <a href="data/perceptive_mpcnet.pdf">arXiv</a>
               / -->
               <!-- <a href="http://hdl.handle.net/20.500.11850/534876">Master Thesis</a> -->
               <p></p>
-              <p>Lagrangian dynamics modeling was used to build a state space, and the LQR algorithm was
-                used to build a robust control method for the wheeled-legged robot.</p>
+              <p>Using Fast_lio for 3D mapping and robot localization, employing the ICP point cloud matching algorithm for robot relocalization, and finally utilizing the DWA planner for local path planning.</p>
             </td>
           </tr> 
 <!-- ===========================第二段经历====================== -->
           <tr onmouseout="automatic_aiming_stop()" onmouseover="automatic_aiming_start()">
-            <td style="padding:10px;padding-top:80px;width:25%;vertical-align:middle">
+            <td style="padding:10px;padding-top:60px;width:25%;vertical-align:middle">
               <div class="one">
                 <div class="two" id='automatic_aiming'><video  width=170% height=120% muted autoplay loop>
                 <source src="images/automatic_aiming.MP4" type="video/mp4">
@@ -135,25 +136,28 @@
                 anymal_imitate_stop()
               </script> -->
             </td>
-            <td style="padding-left:100px;padding-top:70px;width:75%;vertical-align:middle">
+            <td style="padding-left:100px;padding-top:50px;width:75%;vertical-align:middle">
               <a href="">
                 <papertitle>Multi-threaded autonomous targeting vision system</papertitle>
               </a>
               <br>
-              <strong>Hang Liu</strong>,
+              <strong>Hang Liu</strong>, Zesheng Li, Wenhua Liu
               <br>
               <em>For RoboMaster competition in 2022</em>
+              <br>
+              <em>Source: </em><a href="https://github.com/66Lau/NEXTEVision">Github repo</a>
               <!-- <a href="http://hdl.handle.net/20.500.11850/534876">Master Thesis</a> -->
               <p></p>
               <p>Using OpenCV for image processing to detect and recognize targets, and using Kalman filtering to predict the movement of the targets.</p>
+
             </td>
           </tr> 
 <!-- ===========================第三段经历====================== -->
-          <tr onmouseout="robot_navigation_stop()" onmouseover="robot_navigation_start()">
-            <td style="padding:10px;width:25%;vertical-align:middle">
+          <tr onmouseout="hybrid_robot_webots_stop()" onmouseover="hybrid_robot_webots_start()">
+            <td style="padding-left:10px;padding-top:40px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='robot_navigation'><video  width=170% height=120% muted autoplay loop>
-                  <source src="images/robot_navigation.mp4" type="video/mp4">
+                <div class="two" id='hybrid_robot_webots'><video  width=170% height=130% muted autoplay loop>
+                  <source src="images/hybrid-robot-webots.MP4" type="video/MP4">
 	              Your browser does not support the video tag.
 	              </video></div>
 	              <!-- <img src='images/sampling-big.png' width="160"> -->
@@ -169,22 +173,25 @@
                 sampling_stop()
               </script> -->
             </td>
-            <td style="padding-left:100px;padding-top:50px;width:75%;vertical-align:middle">
+            <td style="padding-left:100px;padding-top:10px;width:75%;vertical-align:middle">
               <a href="">
-              <papertitle>Mapping, relocalization, and navigation system for three-dimensional lidar.</papertitle>
+              <papertitle>Hybrid jumping robot with both legs and wheels based on Webots</papertitle>
               </a>
               <br>
-              <strong>Hang Liu</strong>,
+              <strong>Hang Liu</strong>
               <br>
-              <em>For RoboMaster competition in 2023,2024</em>
+              <em>research project</em>
               <br>
+              <em>Source: </em><a href="https://github.com/66Lau/webots-short">Github repo</a>
               <p></p>
-              <p>Using Fast_lio for 3D mapping and robot localization, employing the ICP point cloud matching algorithm for robot relocalization, and finally utilizing the DWA planner for local path planning.</p>
+              <p>Lagrangian dynamics modeling was used to build a state space, and the LQR algorithm was
+                used to build a robust control method for the wheeled-legged robot.</p>
             </td>
+          </tr> 
 
 <!-- ===========================第四段经历====================== -->
             <tr onmouseout="tagslam_fusion__stop()" onmouseover="tagslam_fusion_start()">
-              <td style="padding:10px;width:25%;vertical-align:middle">
+              <td style="padding:10px;padding-top:60px; width:25%;vertical-align:middle">
                 <div class="one">
                   <div class="two" id='tagslam_fusion'><video  width=170% height=120% muted autoplay loop>
                     <source src="images/tagslam_fusion.MP4" type="video/MP4">
@@ -203,22 +210,24 @@
                   sampling_stop()
                 </script> -->
               </td>
-              <td style="padding-left:100px;padding-top:50px;width:75%;vertical-align:middle">
+              <td style="padding-left:100px;padding-top:40px;width:75%;vertical-align:middle">
                 <a href="">
-                <papertitle>Fusion of TagSLAM and T265 odometry.</papertitle>
+                <papertitle>Fusion of TagSLAM and T265 odometry</papertitle>
                 </a>
                 <br>
-                <strong>Hang Liu</strong>,
+                <strong>Hang Liu</strong>
                 <br>
                 <em>research project</em>
                 <br>
+                <em>Source: </em><a href="https://github.com/66Lau/tagslam_realsense_root">Github repo</a>
                 <p></p>
                 <p>Utilize TagSLAM for AprilTag recognition to correct cumulative odometry errors, while integrating T265 visual odometry to obtain high-frequency and error-correcting odometry information.</p>
               </td>
+            </tr> 
 
 <!-- ===========================第五段经历====================== -->
             <tr onmouseout="simu_3D_lidar__stop()" onmouseover="simu_3D_lidar_start()">
-              <td style="padding:10px;width:25%;vertical-align:middle">
+              <td style="padding:10px;padding-top:20px;width:25%;vertical-align:middle">
                 <div class="one">
                   <div class="two" id='simu_3D_lidar'><video  width=170% height=120% muted autoplay loop>
                     <source src="images/simu_3D_lidar.MP4" type="video/MP4">
@@ -237,19 +246,21 @@
                   sampling_stop()
                 </script> -->
               </td>
-              <td style="padding-left:100px;padding-top:50px;width:75%;vertical-align:middle">
+              <td style="padding-left:100px;padding-top:20px;width:75%;vertical-align:middle">
                 <a href="">
-                <papertitle>Simulation of 3D LiDAR in complex terrain environments.</papertitle>
+                <papertitle>Simulation of 3D LiDAR in complex terrain environments</papertitle>
                 </a>
                 <br>
-                <strong>Hang Liu</strong>,
+                <strong>Hang Liu</strong>
                 <br>
-                <em>For the purpose of algorithm validation.</em>
+                <em>For the purpose of algorithm validation</em>
                 <br>
+                <em>Source: </em><a href="https://github.com/66Lau/sentry_sim">Github repo</a>
                 <p></p>
                 <p>Created a simulation platform in GAZEBO for testing 3D laser-based navigation algorithms in
                   challenging terrains.</p>
               </td>
+            </tr> 
 
 
   <!-- ===========================第五段经历====================== -->
@@ -273,18 +284,19 @@
                   sampling_stop()
                 </script> -->
               </td>
-              <td style="padding-left:100px;padding-top:50px;width:75%;vertical-align:middle">
+              <td style="padding-left:100px;padding-top:0px;width:75%;vertical-align:middle">
                 <a href="">
-                <papertitle>Robot arm calligraphy.</papertitle>
+                <papertitle>Robot arm calligraphy</papertitle>
                 </a>
                 <br>
-                <strong>Hang Liu</strong>,
+                <strong>Hang Liu</strong>
                 <br>
-                <em>Internship.</em>
+                <em>Internship</em>
                 <br>
                 <p></p>
                 <p>Utilizing a robotic arm to replicate the user's handwriting trajectory.</p>
               </td>
+            </tr> 
 
  		    
 
