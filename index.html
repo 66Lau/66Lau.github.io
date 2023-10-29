@@ -45,63 +45,64 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>News</heading>
-              <p> [2022.11] Our paper <em> Autonomous Navigation with a Monocular Event Camera </em> is submitted!</p>
-              <p>
-	              [2022.06] Our paper on <em>Learning Exploration </em> is accepted for <em>Robotics and Automation Letters (RA-L) </em> and will be presented at <em> IROS 2022 </em> in Kyoto!
-              </p> 
-              <p>
-                [2022.06] I have joined Robotics and Perception Group at University of Zurich and ETH Zurich!
-              </p>
-              <object data="cv.pdf" type="application/pdf" width="100%" height="800" style="display:block;">
+              <heading>Curriculum Vitae</heading>
+              <p> Click here to download my <a href="cv/cv.pdf">Curriculum Vitae</a></p>
+
+              <!-- <object data="cv.pdf" type="application/pdf" width="100%" height="800" style="display:block;">
                 <param name="view" value="FitV" />
                 <embed src="cv/cv.pdf" type="application/pdf" width="100%" height="800" />
-              </object>
+              </object> -->
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
         </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tbody>
             <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
+            <td style="padding-left:20px;width:100%;height: 50px;vertical-align:middle">
               <heading>Projects</heading>
               <p>
               	Here is a few projects that I am currently working on, with some of them available in preprints.
               </p>
             </td>
-          </tr>
-        </tbody></table>
+            </tr>
+          </tbody>
+        </table>
+  <!-- ===========================第一段经历====================== -->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-          <tr onmouseout="event_mono_stop()" onmouseover="event_mono_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
+          <tr onmouseout="hybrid_robot_webots_stop()" onmouseover="hybrid_robot_webots_start()">
+            <td style="padding-left:10px;padding-top:10px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='event_mono'><img src='images/event_mono.png' width="160"></div>
-                <img src='images/event_mono.png' width="160">
+                
+                <div class="two" id='hybrid_robot_webots'>
+                  <video  width=170% height=160% muted autoplay loop>
+                  <source src="images/hybrid-robot-webots.MP4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video>
+                </div>
+                <img src='images/hybrid-robot-webots.jpg' width="170">
+              </div>
               <script type="text/javascript">
-                function event_mono_start() {
-                  document.getElementById('event_mono').style.opacity = "1";
+                function hybrid_robot_webots_start() {
+                  document.getElementById('hybrid_robot_webots').style.opacity = "1";
                 }
 
-                function event_mono_stop() {
-                  document.getElementById('event_mono').style.opacity = "0";
+                function hybrid_robot_webots_stop() {
+                  document.getElementById('hybrid_robot_webots').style.opacity = "0";
                 }
-                event_mono_stop()
+                hybrid_robot_webots_stop()
               </script>
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="padding-left:100px;padding-top:40px;width:75%;vertical-align:middle">
               <a href="">
-                <papertitle>Autonomous Navigation with a Monocular Event Camera</papertitle>
+                <papertitle>Hybrid jumping robot with both legs and wheels based on Webots</papertitle>
               </a>
               <br>
-              <strong>Chao Ni</strong>,
-							<a href="https://matthias.pw/">Matthias Müller</a>,
-							<a href="https://rpg.ifi.uzh.ch/people_scaramuzza.html">Davide Scaramuzza</a>
+              <strong>Hang Liu</strong>,
               <br>
-              <a href="data/event_navigation.pdf">arXiv</a> /
-              <em> </em> under review
+              <em>research project</em>
               <br>
               <!-- <a href="https://youtu.be/zRdr7dWsLr4">video</a>
               /
@@ -109,62 +110,55 @@
               / -->
               <!-- <a href="http://hdl.handle.net/20.500.11850/534876">Master Thesis</a> -->
               <p></p>
-              <p>Learning to navigate in the forest using only a monocular event camera.</p>
+              <p>Lagrangian dynamics modeling was used to build a state space, and the LQR algorithm was
+                used to build a robust control method for the wheeled-legged robot.</p>
             </td>
           </tr> 
-
-          <tr onmouseout="anymal_imitate_stop()" onmouseover="anymal_imitate_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
+<!-- ===========================第二段经历====================== -->
+          <tr onmouseout="automatic_aiming_stop()" onmouseover="automatic_aiming_start()">
+            <td style="padding:10px;padding-top:80px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='anymal-imitate'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/anymal-imitate-small.mp4" type="video/mp4">
+                <div class="two" id='automatic_aiming'><video  width=170% height=120% muted autoplay loop>
+                <source src="images/automatic_aiming.MP4" type="video/mp4">
                 Your browser does not support the video tag.
                 </video></div>
-                <img src='images/anymal-imitate.png' width="160">
+                
               </div>
-              <script type="text/javascript">
-                function anymal_imitate_start() {
-                  document.getElementById('anymal-imitate').style.opacity = "1";
+              <!-- <script type="text/javascript">
+                function automatic_aiming_start() {
+                  document.getElementById('automatic_aiming').style.opacity = "1";
                 }
 
-                function anymal_imitate_stop() {
-                  document.getElementById('anymal-imitate').style.opacity = "0";
+                function automatic_aiming_stop() {
+                  document.getElementById('automatic_aiming').style.opacity = "0";
                 }
                 anymal_imitate_stop()
-              </script>
+              </script> -->
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="padding-left:100px;padding-top:70px;width:75%;vertical-align:middle">
               <a href="">
-                <papertitle>Learning to Walk Over Structured Terrains by Imitating MPC</papertitle>
+                <papertitle>Multi-threaded autonomous targeting vision system</papertitle>
               </a>
               <br>
-              <strong>Chao Ni</strong>,
-							<a href="https://rsl.ethz.ch/">Alexander Reske</a>,
-							<a href="https://rsl.ethz.ch/">Takahiro Miki</a>,
-							<a href="https://rsl.ethz.ch/">Marco Hutter</a>
+              <strong>Hang Liu</strong>,
               <br>
-              <!-- <em>Conference on Robot Learning (CoRL)</em>, under review
-              <br> -->
-              <a href="https://youtu.be/zRdr7dWsLr4">video</a>
-              /
-              <a href="data/perceptive_mpcnet.pdf">arXiv</a>
-              /
+              <em>For RoboMaster competition in 2022</em>
               <!-- <a href="http://hdl.handle.net/20.500.11850/534876">Master Thesis</a> -->
               <p></p>
-              <p>Leveraging demonstrations from MPC expert, the robot learns to walk over structured terrains.</p>
+              <p>Using OpenCV for image processing to detect and recognize targets, and using Kalman filtering to predict the movement of the targets.</p>
             </td>
           </tr> 
-
-          <tr onmouseout="sampling_stop()" onmouseover="sampling_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
+<!-- ===========================第三段经历====================== -->
+          <tr onmouseout="robot_navigation_stop()" onmouseover="robot_navigation_start()">
+            <td style="padding:10px;width:25%;vertical-align:middle">
               <div class="one">
-                <div class="two" id='sampling_image'><video  width=100% height=100% muted autoplay loop>
-                  <source src="images/sampling-small.mp4" type="video/mp4">
+                <div class="two" id='robot_navigation'><video  width=170% height=120% muted autoplay loop>
+                  <source src="images/robot_navigation.mp4" type="video/mp4">
 	              Your browser does not support the video tag.
 	              </video></div>
-	              <img src='images/sampling-big.png' width="160">
+	              <!-- <img src='images/sampling-big.png' width="160"> -->
 	          </div>
-              <script type="text/javascript">
+              <!-- <script type="text/javascript">
                 function sampling_start() {
                   document.getElementById('sampling_image').style.opacity = "1";
                 }
@@ -173,202 +167,126 @@
                   document.getElementById('sampling_image').style.opacity = "0";
                 }
                 sampling_stop()
-              </script>
+              </script> -->
             </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
+            <td style="padding-left:100px;padding-top:50px;width:75%;vertical-align:middle">
               <a href="">
-              <papertitle>Fast and Compute-efficient Sampling-based Local Exploration Planning via Distribution Learning</papertitle>
+              <papertitle>Mapping, relocalization, and navigation system for three-dimensional lidar.</papertitle>
               </a>
               <br>
-              <a href="https://asl.ethz.ch/the-lab/people/person-detail.MTk5NDEw.TGlzdC8xNTg0LDEyMDExMzk5Mjg=.html">Lukas Schmid*</a>,
-              <strong>Chao Ni*</strong>,
-              <a href="">Yuliang Zhong</a>,
-              <a href="">Roland Siegwart</a>,
-              <a href="">Olov Andersson</a>
+              <strong>Hang Liu</strong>,
               <br>
-              <em>*equal contribution</em> <br>
-              <em>Robotics and Automation Letters (RA-L) & IROS</em>, 2022
+              <em>For RoboMaster competition in 2023,2024</em>
               <br>
-	      <a href="https://chaofiber.github.io/cvae_exploration_planning/">project page</a>
-	      /
-              <a href="https://www.youtube.com/watch?v=Hj5yI8VtlXk">video</a>
-              / 
-              <a href="https://arxiv.org/abs/2202.13715">arXiv</a>
-              /
-              <a href="https://github.com/ethz-asl/cvae_exploration_planning">code</a>
               <p></p>
-              <p>By learning the distribution of optimal samples given a local map, sampling-based exploration planning can be done efficiently.</p>
+              <p>Using Fast_lio for 3D mapping and robot localization, employing the ICP point cloud matching algorithm for robot relocalization, and finally utilizing the DWA planner for local path planning.</p>
             </td>
 
- 		    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-            <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Past Projects</heading>
-              <p>
-              	Here is a list of my past projects, including course projects and unpublished work.
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+<!-- ===========================第四段经历====================== -->
+<tr onmouseout="tagslam_fusion__stop()" onmouseover="tagslam_fusion_start()">
+  <td style="padding:10px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='tagslam_fusion'><video  width=170% height=120% muted autoplay loop>
+        <source src="images/tagslam_fusion.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+      <!-- <img src='images/sampling-big.png' width="160"> -->
+  </div>
+    <!-- <script type="text/javascript">
+      function sampling_start() {
+        document.getElementById('sampling_image').style.opacity = "1";
+      }
 
-          <tr onmouseout="mpc_feedback_stop()" onmouseover="mpc_feedback_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='mpc_feedback_image'><img src='images/mpc_feedback.png' width="160"></div>
-                <img src='images/mpc_feedback.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function mpc_feedback_start() {
-                  document.getElementById('mpc_feedback_image').style.opacity = "1";
-                }
+      function sampling_stop() {
+        document.getElementById('sampling_image').style.opacity = "0";
+      }
+      sampling_stop()
+    </script> -->
+  </td>
+  <td style="padding-left:100px;padding-top:50px;width:75%;vertical-align:middle">
+    <a href="">
+    <papertitle>Fusion of TagSLAM and T265 odometry.</papertitle>
+    </a>
+    <br>
+    <strong>Hang Liu</strong>,
+    <br>
+    <em>research project</em>
+    <br>
+    <p></p>
+    <p>Utilize TagSLAM for AprilTag recognition to correct cumulative odometry errors, while integrating T265 visual odometry to obtain high-frequency and error-correcting odometry information.</p>
+  </td>
 
-                function mpc_feedback_stop() {
-                  document.getElementById('mpc_feedback_image').style.opacity = "0";
-                }
-                mpc_feedback_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="">
-                <papertitle>MPC-feedback Trajectory Optimization for Wheeled-legged Robots</papertitle>
-              </a>
-              <br>
-              <strong>Chao Ni</strong>
-              <br>
-							<em>semester thesis</em>
-              <br>
-              <a href="data/semester_thesis.pdf">report</a>
-              /
-              <a href="https://github.com/leggedrobotics/towr/tree/wheel_step">code</a>
-              <p></p>
-              <p>We create a motion primitive library with trajectories generated by modulizable optimizers and use Model Predictive Control to track the trajectory.</p>
-            </td>
-          </tr>
+<!-- ===========================第五段经历====================== -->
+<tr onmouseout="simu_3D_lidar__stop()" onmouseover="simu_3D_lidar_start()">
+  <td style="padding:10px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='simu_3D_lidar'><video  width=170% height=120% muted autoplay loop>
+        <source src="images/simu_3D_lidar.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+      <!-- <img src='images/sampling-big.png' width="160"> -->
+  </div>
+    <!-- <script type="text/javascript">
+      function sampling_start() {
+        document.getElementById('sampling_image').style.opacity = "1";
+      }
 
-
-          <tr onmouseout="hexpod_stop()" onmouseover="hexpod_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='hexpod_image'><video  width=100% height=100% muted autoplay loop>
-                <source src="images/cross_obstacle_fast.mov" type="video/mp4">
-                Your browser does not support the video tag.
-                </video></div>
-                <img src='images/cross_obstacle.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function hexpod_start() {
-                  document.getElementById('hexpod_image').style.opacity = "1";
-                }
-
-                function hexpod_stop() {
-                  document.getElementById('hexpod_image').style.opacity = "0";
-                }
-                hexpod_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="https://github.com/chaofiber/hexapod/">
-                <papertitle>Simple Hexapod Robot Control</papertitle>
-              </a>
-              <br>
-              <strong>Chao Ni</strong>,
-              <a href="">Kaiyue Shen</a>,
-              <a href="">Ji Shi</a>
-              <br>
-							<em>course project</em>
-              <br>
-              <a href="https://www.youtube.com/watch?v=EAShGZtsAMU">video</a>
-			        /
-              <a href="https://github.com/chaofiber/hexapod/">code</a>
-              <p></p>
-              <p>Inverse Kinamtics solver for the hexpod robot is implemented, simple PD feedback is used for torque control. An obstacle avoidance algorithm is used to achieve navigation tasks.</p>
-            </td>
-          </tr> 
+      function sampling_stop() {
+        document.getElementById('sampling_image').style.opacity = "0";
+      }
+      sampling_stop()
+    </script> -->
+  </td>
+  <td style="padding-left:100px;padding-top:50px;width:75%;vertical-align:middle">
+    <a href="">
+    <papertitle>Simulation of 3D LiDAR in complex terrain environments.</papertitle>
+    </a>
+    <br>
+    <strong>Hang Liu</strong>,
+    <br>
+    <em>For the purpose of algorithm validation.</em>
+    <br>
+    <p></p>
+    <p>Created a simulation platform in GAZEBO for testing 3D laser-based navigation algorithms in
+      challenging terrains.</p>
+  </td>
 
 
-          <tr onmouseout="bachelor_thesis_stop()" onmouseover="bachelor_thesis_start()">
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <div class="two" id='bachelor_thesis_image'><img src='images/bachelor_thesis.png' width="160"></div>
-                <img src='images/bachelor_thesis.png' width="160">
-              </div>
-              <script type="text/javascript">
-                function bachelor_thesis_start() {
-                  document.getElementById('bachelor_thesis_image').style.opacity = "1";
-                }
+  <!-- ===========================第五段经历====================== -->
+<tr onmouseout="robot_arm_calligraphy__stop()" onmouseover="robot_arm_calligraphy_start()">
+  <td style="padding:10px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='simu_3D_lidar'><video  width=170% height=120% muted autoplay loop>
+        <source src="images/robot_arm_calligraphy.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+      <!-- <img src='images/sampling-big.png' width="160"> -->
+  </div>
+    <!-- <script type="text/javascript">
+      function sampling_start() {
+        document.getElementById('sampling_image').style.opacity = "1";
+      }
 
-                function bachelor_thesis_stop() {
-                  document.getElementById('bachelor_thesis_image').style.opacity = "0";
-                }
-                bachelor_thesis_stop()
-              </script>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a href="">
-              <papertitle>Exploiting Effective Representation via Cooperative Learning of Multi-Sensory Robotics Data</papertitle>
-              </a>
-              <br>
-              <strong>Chao Ni</strong>
-              <br>
-							<em>undergraduate thesis</em>
-              <br>
-              <a href="data/undergrad_thesis.pdf">report</a>
-              <p></p>
-              <p>We extract effective representation from the multi-sensory robotics data by self-supervised synchronization and 
-                use the latent representation for downstream RL tasks.<p>
-            </td>
+      function sampling_stop() {
+        document.getElementById('sampling_image').style.opacity = "0";
+      }
+      sampling_stop()
+    </script> -->
+  </td>
+  <td style="padding-left:100px;padding-top:50px;width:75%;vertical-align:middle">
+    <a href="">
+    <papertitle>Robot arm calligraphy.</papertitle>
+    </a>
+    <br>
+    <strong>Hang Liu</strong>,
+    <br>
+    <em>Internship.</em>
+    <br>
+    <p></p>
+    <p>Utilizing a robotic arm to replicate the user's handwriting trajectory.</p>
+  </td>
 
-            <tr onmouseout="gora_stop()" onmouseover="gora_start()">
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <div class="two" id='gora_image'><img src='images/gora.png' width="160"></div>
-                  <img src='images/gora.png' width="160">
-                </div>
-                <script type="text/javascript">
-                  function gora_start() {
-                    document.getElementById('gora_image').style.opacity = "1";
-                  }
-  
-                  function gora_stop() {
-                    document.getElementById('gora_image').style.opacity = "0";
-                  }
-                  gora_stop()
-                </script>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="">
-                <papertitle>GORA-Net: a Temporal Reparameterization Method for Recognizing Actions in Video Sequences</papertitle>
-                </a>
-                <br>
-                <strong>Chao Ni</strong>
-                <br>
-                <em>unpublished research (Johns Hopkins University, advisor: Gregory Chirikjian)</em>
-                <br>
-                <a href="data/jhu18-chao.pdf">report</a>
-                <p></p>
-                <p>We quotient out the temporal fluctuations of the video and insert a preprocessing frame selection layer in 
-                  the action recognition learning framework.<p>
-              </td>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-                <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Personal Collections</heading>
-                  <p>
-                    Here is a list of my personal literature reviews and pointers to some of my passions.
-                    <p> A literature review on Robot Learning: <a href="data/rl19-chao.pdf">robot learning</a></p> 
-                </td>
-              </tr>
-            </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>					
-            </td>
-          </tr>
-        </tbody></table>
-        Template <a href="https://github.com/jonbarron/jonbarron_website">source</a>.
-      </td>
-    </tr>
-  </table>
+ 		    
 
 </body>
 
