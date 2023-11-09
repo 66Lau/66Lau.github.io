@@ -18,7 +18,10 @@ title: Projects
 
 <source src="projects/project_images/robot_navigation.gif" type="video/gif">
 
-<img src = "projects/project_images/robot_navigation.gif" alt = "综合展示3.gif" width = "200">
+<img src = "projects/project_images/robot_navigation.gif" alt = "综合展示3.gif" >
+
+
+![Alt text](projects/project_images/robot_navigation.gif)
 </center>
 
 
