@@ -15,9 +15,10 @@ title: Projects
 Using Fast_lio for 3D mapping and robot localization, employing the ICP point cloud matching algorithm for robot relocalization, and finally utilizing the DWA planner for local path planning.
 
 
-Project Link: [NEXTE_Sentry_Nav](https://github.com/66Lau/NEXTE_Sentry_Nav)
+<!-- Project Link: [NEXTE_Sentry_Nav](https://github.com/66Lau/NEXTE_Sentry_Nav) -->
 
 Project Link: <a href="https://github.com/66Lau/NEXTE_Sentry_Nav" style="color: blue;">NEXTE_Sentry_Nav</a>
+
 
 ---
 
@@ -31,7 +32,9 @@ Project Link: <a href="https://github.com/66Lau/NEXTE_Sentry_Nav" style="color: 
 Using OpenCV for image processing to detect and recognize targets, and using Kalman filtering to predict the movement of the targets.
 
 
-Project Link: [NEXTEVision](https://github.com/66Lau/NEXTEVision)
+<!-- Project Link: [NEXTEVision](https://github.com/66Lau/NEXTEVision) -->
+Project Link: <a href="https://github.com/66Lau/NEXTEVision" style="color: blue;">NEXTEVision</a>
+
 
 ---
 
@@ -45,7 +48,9 @@ Project Link: [NEXTEVision](https://github.com/66Lau/NEXTEVision)
 Lagrangian dynamics modeling was used to build a state space, and the LQR algorithm was used to build a robust control method for the wheeled-legged robot.
 
 
-Project Link: [webots-short](https://github.com/66Lau/webots-short)
+<!-- Project Link: [webots-short](https://github.com/66Lau/webots-short) -->
+Project Link: <a href="https://github.com/66Lau/webots-short" style="color: blue;">webots-short</a>
+
 
 ---
 
@@ -60,7 +65,9 @@ Project Link: [webots-short](https://github.com/66Lau/webots-short)
 Utilize TagSLAM for AprilTag recognition to correct cumulative odometry errors, while integrating T265 visual odometry to obtain high-frequency and error-correcting odometry information.
 
 
-Project Link: [tagslam_realsense_root](https://github.com/66Lau/tagslam_realsense_root)
+<!-- Project Link: [tagslam_realsense_root](https://github.com/66Lau/tagslam_realsense_root) -->
+Project Link: <a href="https://github.com/66Lau/tagslam_realsense_root" style="color: blue;">tagslam_realsense_root</a>
+
 
 ---
 
@@ -77,7 +84,9 @@ Project Link: [tagslam_realsense_root](https://github.com/66Lau/tagslam_realsens
 Created a simulation platform in GAZEBO for testing 3D laser-based navigation algorithms in challenging terrains.
 
 
-Project Link: [sentry_sim](https://github.com/66Lau/sentry_sim)
+<!-- Project Link: [sentry_sim](https://github.com/66Lau/sentry_sim) -->
+Project Link: <a href="https://github.com/66Lau/sentry_sim" style="color: blue;">sentry_sim</a>
+
 
 ---
 
