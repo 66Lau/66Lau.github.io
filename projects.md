@@ -101,6 +101,10 @@ Project Link: <a href="https://github.com/66Lau/sentry_sim" style="color: blue;"
 Utilizing a robotic arm to replicate the user's handwriting trajectory.
 
 
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://youtu.be/vt5fpE0bzSY)
+
+
+
 
 
 
