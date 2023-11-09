@@ -50,10 +50,13 @@ Currently, I am responsible for the development of the robot's navigation system
 
 ## News and Updates
 
-- **Aug 2023：** Works about Iterative MPPI in progress.
-- **Jul 2023：** A paper I enrolled in was accepted by CDC 2023.
-- **Jun 2023：** Start the final stage revision work of our paper about i2LQR racing, release soon.
-- **Sep 2022：** Join Berkeley Hybrid Robotics as an intern student.
-- **Nov 2022：** The third prize in China Robot Competition 2022(Held online for the pandemic), intelligent irrigation car.
-- **Aug 2022：** Visiting UC Berkeley through Berkeley Global Access program.
+
+- **Oct 2023：** Win the China National Scholarship from nearly 500 candidates.
+- **Jun 2023：** Win the Third Prize in the 22nd National College Student Robotics Competition RoboMaster2023 RMUC.
+- **Apr 2023：** Win the Second Prize in the 22nd National College Student Robotics Competition RoboMaster2023 RMUL.
+- **NOV 2022：** Win the Third Prize in the 21st National College Student Robotics Competition RoboMaster2022 RMUL.
+- **SEP 2022：** Elected as the vice-captain and vision team leader in **NEXT_E**.
+- **JUl 2022：** Advised by **Prof.Wenyan Guo**, win the first prize in the National College Mechanical Innovation Competition (Shaanxi Region).
+- **SEP 2021：** Join **NEXT-E** robotics lab in Xi'an University of Technology, Advised by **Prof.Jingyi Wang**.
+- **Aug 2021：** Join Jiangxi Intelligent Industry Technology Innovation Research Institute as an embedded intern student.
 
