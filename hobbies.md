@@ -15,7 +15,7 @@ title: Hobbies
 ## Basketball
 
 <center>
-<img src="/images/basketball1.jpg" style="width:60%; height:auto; max-width:100%">
+<img src="/images/basketball1.jpg" style="width:auto; height:auto;">
 </center>
 
 
