@@ -28,9 +28,12 @@ Here is [my CV](https://66lau.github.io/file/Hangliu_CV.pdf).
 
 <!-- I'm enthusiastic about robotics, and especially interested in **motion planning, optimization and control theory**. My current research lies on model-based trajectory generation and control in automatic drive, including topics like learning based MPC(LMPC), iLQR in iterative manner(i2LQR) and iterative MPPI. I also have experience in real-world development and debugging of intelligent car on real test ground. **I’m willing to get exposed to various topics in the field of robotics motion planning**, including various methodologies like model-based, RL-based methods or their combination and their application on various types of robots like legged and aerial robots. -->
 
+
 Previously, I participated in the RoboMaster 2022 and RoboMaster 2023 robot competitions, where I completed the development of the embedded system for a robot. I also worked on simulating and creating control algorithms for a hybrid jumping robot with both legs and wheels using Webots. Additionally, I designed a robust robot vision tracking system.
 
+
 Currently, I am responsible for the development of the robot's navigation system in combat scenarios and complex terrains.
+
 
 **<font color='red'>[Highlight]</font> I am looking for PhD to start in 2024/2025, RA as well. Contact me if you are interested in my work!**
 
