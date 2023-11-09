@@ -7,7 +7,9 @@ title: Projects
 ## Mapping, relocalization, and navigation system for three-dimensional lidar
 
 <center>
-https://github.com/66Lau/66Lau.github.io/blob/academic/projects/project_images/simu_3D_lidar.MP4
+
+<!-- <video width="630" height="300" src="https://github.com/66Lau/66Lau.github.io/blob/academic/projects/project_images/simu_3D_lidar.MP4"></video> -->
+<video width="630" height="300" src="projects/project_images/simu_3D_lidar.MP4"></video>
 </center>
 
 Project Link: [The project for 2022 China Robot Competition](https://yihanli126.github.io/projects/agricultural_irrigating_car)
