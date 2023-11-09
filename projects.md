@@ -16,35 +16,30 @@ Project Link: [NEXTE_Sentry_Nav](https://github.com/66Lau/NEXTE_Sentry_Nav)
 
 ---
 
-## EECS149 Course Project: Hexapod Robot
+## Multi-threaded autonomous targeting vision system
 
-<center>
-<img src="/projects/project_images/hexapod_test.jpg">
-</center>
+![Alt text](projects/project_images/automatic_aiming.gif)
 
-Project Link: [Hexapod Robot Project: Perception, Avoidance and Tracking](https://yihanli126.github.io/projects/hexapod_robot)
-
+Project Link: [NEXTEVision](https://github.com/66Lau/NEXTEVision)
 
 ---
 
-## CS61B Final Project
+## Hybrid jumping robot with both legs and wheels based on Webots
 
-<center>
-<img src="/projects/project_images/General world.png">
-</center>
+![Alt text](projects/project_images/hybrid-robot-webots.gif)
 
-Project Link: [Random World Exploration](https://yihanli126.github.io/projects/61B_project)
+Project Link: [webots-short](https://github.com/66Lau/webots-short)
 
 ---
 
-## XJTU Robot Development Practive Course Project
+## Fusion of TagSLAM and T265 odometry
 
 <center>
 <img src="/projects/project_images/IR_tracking.jpg">
 </center>
 
 
-Project Link: [Infrared Sensor Tracking](https://yihanli126.github.io/projects/IR_tracking)
+Project Link: [tagslam_realsense_root](https://github.com/66Lau/tagslam_realsense_root)
 
 ---
 
