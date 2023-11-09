@@ -8,26 +8,11 @@ title: Projects
 
 <center>
 
-<!-- <video width="630" height="300" src="https://github.com/66Lau/66Lau.github.io/blob/academic/projects/project_images/simu_3D_lidar.MP4"></video> -->
-<!-- <video width="630" height="300" src="projects/project_images/robot_navigation.MP4"></video> -->
-
-<video src="projects/project_images/robot_navigation.MP4" width="320" height="240" muted autoplay loop></video>
-</center>
-
-<video src="projects/project_images/robot_navigation.MP4" width="320" height="240" muted autoplay loop></video>
-
-<source src="projects/project_images/robot_navigation.gif" type="video/gif">
-
-<img src = "projects/project_images/robot_navigation.gif" alt = "综合展示3.gif" >
-
-
 ![Alt text](projects/project_images/robot_navigation.gif)
+
 </center>
 
-
-
-
-Project Link: [The project for 2022 China Robot Competition](https://yihanli126.github.io/projects/agricultural_irrigating_car)
+Project Link: [NEXTE_Sentry_Nav](https://github.com/66Lau/NEXTE_Sentry_Nav)
 
 ---
 
