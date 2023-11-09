@@ -6,7 +6,7 @@ title: Projects
 
 ## Mapping, relocalization, and navigation system for three-dimensional lidar
 
-![Alt text](projects/project_images/robot_navigation.gif)
+<!-- ![Alt text](projects/project_images/robot_navigation.gif) -->
 
 <img src="projects/project_images/robot_navigation.gif" alt="Alt text">
 

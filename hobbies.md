@@ -8,8 +8,8 @@ title: Hobbies
 
 ## Hiking and Climbing
 
-![](images/hiking1.JPG)  |  ![](images/hiking2.JPG)
-![](images/hiking3.JPG)  |  ![](images/hiking4.JPG)
+![](https://66lau.github.io/images/hiking1.JPG)  |  ![](https://66lau.github.io/images/hiking2.JPG)
+![](https://66lau.github.io/images/hiking3.JPG)  |  ![](https://66lau.github.io/images/hiking4.JPG)
 
 
 ## Basketball
