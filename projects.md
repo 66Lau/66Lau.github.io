@@ -15,14 +15,11 @@ title: Projects
 </center>
 
 <video src="projects/project_images/robot_navigation.MP4" width="320" height="240" muted autoplay loop></video>
-</center>
 
-<div class="two" id='robot_navigation'>
-<video  width=170% height=100% muted autoplay loop>
-<source src="images/robot_navigation.mp4" type="video/mp4">
-"Your browser does not support the video tag."
-</video>
-</div>
+<source src="projects/project_images/robot_navigation.gif" type="video/gif">
+
+<img src = "projects/project_images/robot_navigation.gif" alt = "综合展示3.gif" width = "200">
+</center>
 
 
 
