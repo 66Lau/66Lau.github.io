@@ -14,7 +14,7 @@ Here is **Hang Liu (Lau Hang, 刘航)**.
 I am a senior student in Xi'an University of Technology, majoring in **Robotics**, and also is the Deputy Team Leader & Head of the Visual Team of the robot lab **NEXT-E**, advised by Prof. Jun Shang, Prof. Jingyi Wang. My research interest lies at the Robot control algorithm and perception
 
 
-Here is [my CV](https://66lau.github.io/file/hangliu_CV.pdf).
+Here is [my CV](https://66lau.github.io/file/Hangliu_CV.pdf).
 
 
 
