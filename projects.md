@@ -8,7 +8,7 @@ title: Projects
 
 <!-- ![Alt text](projects/project_images/robot_navigation.gif) -->
 
-<img src="projects/project_images/robot_navigation.gif" alt="Alt text">
+<img src="https://66lau.github.io/projects/project_images/robot_navigation.gif" alt="Mapping">
 
 Using Fast_lio for 3D mapping and robot localization, employing the ICP point cloud matching algorithm for robot relocalization, and finally utilizing the DWA planner for local path planning.
 
