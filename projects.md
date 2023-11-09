@@ -6,11 +6,8 @@ title: Projects
 
 ## Mapping, relocalization, and navigation system for three-dimensional lidar
 
-<center>
-
 ![Alt text](projects/project_images/robot_navigation.gif)
 
-</center>
 
 Using Fast_lio for 3D mapping and robot localization, employing the ICP point cloud matching algorithm for robot relocalization, and finally utilizing the DWA planner for local path planning.
 
@@ -56,7 +53,17 @@ Project Link: [tagslam_realsense_root](https://github.com/66Lau/tagslam_realsens
 
 Created a simulation platform in GAZEBO for testing 3D laser-based navigation algorithms in challenging terrains.
 
-Project Link: [Basic Machine Learning Practice](https://yihanli126.github.io/projects/machine_learning_class_proj)
+Project Link: [sentry_sim](https://github.com/66Lau/sentry_sim)
+
+---
+
+## Robot arm calligraphy
+
+![Alt text](projects/project_images/robot_arm_calligraphy.gif)
+
+Utilizing a robotic arm to replicate the user's handwriting trajectory.
+
+
 
 
 
