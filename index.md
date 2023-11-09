@@ -44,7 +44,9 @@ Currently, I am responsible for the development of the robot's navigation system
 ## Academic Background
 - **Sep 2020 - June 2024:** Xi'an University of Technology,Department of Automation, Xi'an, China
     - Average Score: 87.2/100
-    - Main Courses: Engineering Mathematical Analysis, Linear Algebra and Geometry, Operations Research, Probability Theory and Mathematical Statistics, Complex Function and Integral Transform, Numerical Analysis, Circuit, Analog and Electronic Technology Fundamentals, Systems Engineering, etc. 
+    - Main Courses: Robot Operating System(97/100), Object-Oriented Programming for Video Processing(94/100),
+Microcomputer Principles and Embedded Systems(93/100), Automatic Control Theory(93/100), Robot
+Control(95/100), etc. 
 
 
 <br>
