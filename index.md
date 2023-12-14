@@ -52,7 +52,7 @@ Control(95/100), etc.
 
 ## News and Updates
 
-- **Dec 2023：** Win the Top10 student of Automation and Information school in XAUT(top 0.2%).
+- **Dec 2023：** Win the Top10 student of Automation and Information school in XAUT.
 - **Oct 2023：** Win the China National Scholarship(top 0.2%).
 - **Jun 2023：** Win the Third Prize in the 22nd National College Student Robotics Competition RoboMaster2023 RMUC.
 - **Apr 2023：** Win the Second Prize in the 22nd National College Student Robotics Competition RoboMaster2023 RMUL.
