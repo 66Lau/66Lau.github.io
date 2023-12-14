@@ -7,8 +7,10 @@ title: Awards
 
 ## Scholarships & Honors
 
-- Oct 2023：China National Scholarship (1000rmb)
+- Oct 2023：China National Scholarship (top 0.2%)
 - DEC 2023：XAUT Excellent Student Scholarship
+- DEC 2023：Top10 student of Automation and Information school in XAUT
+- DEC 2022：XAUT Excellent Student Scholarship
 
 ## Awards
 
