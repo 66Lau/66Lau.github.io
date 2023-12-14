@@ -9,7 +9,7 @@ title: Projects
 <!-- ![Alt text](projects/project_images/robot_navigation.gif) -->
 
 <center>
-<img src="https://66lau.github.io/projects/project_images/robot_navigation_1.gif" alt="Waiting a moment">
+<img src="https://66lau.github.io/projects/project_images/robot_navigation_1.gif" alt="Waiting a moment" width="500">
 </center>
 
 Using Fast_lio for 3D mapping and robot localization, employing the ICP point cloud matching algorithm for robot relocalization, and finally utilizing the DWA planner for local path planning.
@@ -27,7 +27,7 @@ Project Link: <a href="https://github.com/66Lau/NEXTE_Sentry_Nav" style="color: 
 
 <!-- ![Alt text](projects/project_images/simu_3D_lidar.gif) -->
 <center>
-<img src="https://66lau.github.io/projects/project_images/simu_3D_lidar_1.gif" alt="Waiting a moment">
+<img src="https://66lau.github.io/projects/project_images/simu_3D_lidar_1.gif" alt="Waiting a moment" width="500">
 </center>
 
 
@@ -49,7 +49,7 @@ Project Link: <a href="https://github.com/66Lau/sentry_sim" style="color: blue;"
 
 <!-- ![Alt text](projects/project_images/automatic_aiming.gif) -->
 <center>
-<img src="https://66lau.github.io/projects/project_images/automatic_aiming.gif" alt="Waiting a moment">
+<img src="https://66lau.github.io/projects/project_images/automatic_aiming.gif" alt="Waiting a moment" width="500">
 </center>
 
 Using OpenCV for image processing to detect and recognize targets, and using Kalman filtering to predict the movement of the targets.
@@ -65,7 +65,7 @@ Project Link: <a href="https://github.com/66Lau/NEXTEVision" style="color: blue;
 
 <!-- ![Alt text](projects/project_images/hybrid-robot-webots.gif) -->
 <center>
-<img src="https://66lau.github.io/projects/project_images/hybrid-robot-webots.gif" alt="Waiting a moment">
+<img src="https://66lau.github.io/projects/project_images/hybrid-robot-webots.gif" alt="Waiting a moment" width="500">
 </center>
 
 Lagrangian dynamics modeling was used to build a state space, and the LQR algorithm was used to build a robust control method for the wheeled-legged robot.
@@ -82,7 +82,7 @@ Project Link: <a href="https://github.com/66Lau/webots-short" style="color: blue
 <!-- ![Alt text](projects/project_images/tagslam_fusion.gif)
  -->
  <center>
-<img src="https://66lau.github.io/projects/project_images/tagslam_fusion.gif" alt="Waiting a moment">
+<img src="https://66lau.github.io/projects/project_images/tagslam_fusion.gif" alt="Waiting a moment" width="500">
 </center>
 
 Utilize TagSLAM for AprilTag recognition to correct cumulative odometry errors, while integrating T265 visual odometry to obtain high-frequency and error-correcting odometry information.
@@ -101,7 +101,7 @@ Project Link: <a href="https://github.com/66Lau/tagslam_realsense_root" style="c
 
 <!-- ![Alt text](projects/project_images/robot_arm_calligraphy.gif) -->
 <center>
-<img src="https://66lau.github.io/projects/project_images/robot_arm_calligraphy.gif" alt="Waiting a moment">
+<img src="https://66lau.github.io/projects/project_images/robot_arm_calligraphy.gif" alt="Waiting a moment" width="500">
 </center>
 
 
