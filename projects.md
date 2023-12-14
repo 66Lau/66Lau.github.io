@@ -80,11 +80,10 @@ Project Link: <a href="https://github.com/66Lau/tagslam_realsense_root" style="c
 <img src="https://66lau.github.io/projects/project_images/simu_3D_lidar.gif" alt="Waiting a moment">
 </center>
 
-<center>
 
 [![Watch the video](https://66lau.github.io/projects/project_images/sentry_sim.png)](https://www.youtube.com/watch?v=TS8qTcB_eYk&t=9s)
 
-</center>
+
 
 
 Created a simulation platform in GAZEBO for testing 3D laser-based navigation algorithms in challenging terrains.
