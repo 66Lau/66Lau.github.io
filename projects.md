@@ -37,7 +37,7 @@ Project Link: <a href="https://github.com/66Lau/NEXTE_Sentry_Nav" style="color: 
 
 
 Created a simulation platform in GAZEBO for testing 3D laser-based navigation algorithms in challenging terrains.
-
+I modified the [autonomous_exploration_development_environment](https://github.com/HongbiaoZ/autonomous_exploration_development_environment) to adapt the RMUC and combined with the NavfnROS.
 
 <!-- Project Link: [sentry_sim](https://github.com/66Lau/sentry_sim) -->
 Project Link: <a href="https://github.com/66Lau/sentry_sim" style="color: blue;">sentry_sim</a>
