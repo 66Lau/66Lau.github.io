@@ -19,6 +19,29 @@ Using Fast_lio for 3D mapping and robot localization, employing the ICP point cl
 
 Project Link: <a href="https://github.com/66Lau/NEXTE_Sentry_Nav" style="color: blue;">NEXTE_Sentry_Nav</a>
 
+---
+
+## Simulation of 3D LiDAR in complex terrain environments
+
+
+
+<!-- ![Alt text](projects/project_images/simu_3D_lidar.gif) -->
+<center>
+<img src="https://66lau.github.io/projects/project_images/simu_3D_lidar_1.gif" alt="Waiting a moment">
+</center>
+
+
+<!-- [![Watch the video](https://66lau.github.io/projects/project_images/sentry_sim.png)](https://www.youtube.com/watch?v=TS8qTcB_eYk&t=9s) -->
+
+
+
+
+Created a simulation platform in GAZEBO for testing 3D laser-based navigation algorithms in challenging terrains.
+
+
+<!-- Project Link: [sentry_sim](https://github.com/66Lau/sentry_sim) -->
+Project Link: <a href="https://github.com/66Lau/sentry_sim" style="color: blue;">sentry_sim</a>
+
 
 ---
 
@@ -69,28 +92,7 @@ Utilize TagSLAM for AprilTag recognition to correct cumulative odometry errors, 
 Project Link: <a href="https://github.com/66Lau/tagslam_realsense_root" style="color: blue;">tagslam_realsense_root</a>
 
 
----
 
-## Simulation of 3D LiDAR in complex terrain environments
-
-
-
-<!-- ![Alt text](projects/project_images/simu_3D_lidar.gif) -->
-<center>
-<img src="https://66lau.github.io/projects/project_images/simu_3D_lidar_1.gif" alt="Waiting a moment">
-</center>
-
-
-[![Watch the video](https://66lau.github.io/projects/project_images/sentry_sim.png)](https://www.youtube.com/watch?v=TS8qTcB_eYk&t=9s)
-
-
-
-
-Created a simulation platform in GAZEBO for testing 3D laser-based navigation algorithms in challenging terrains.
-
-
-<!-- Project Link: [sentry_sim](https://github.com/66Lau/sentry_sim) -->
-Project Link: <a href="https://github.com/66Lau/sentry_sim" style="color: blue;">sentry_sim</a>
 
 
 ---
