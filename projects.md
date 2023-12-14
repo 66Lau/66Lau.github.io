@@ -77,7 +77,7 @@ Project Link: <a href="https://github.com/66Lau/tagslam_realsense_root" style="c
 
 <!-- ![Alt text](projects/project_images/simu_3D_lidar.gif) -->
 <center>
-<img src="https://66lau.github.io/projects/project_images/simu_3D_lidar.gif" alt="Waiting a moment">
+<img src="https://66lau.github.io/projects/project_images/simu_3D_lidar_1.gif" alt="Waiting a moment">
 </center>
 
 
