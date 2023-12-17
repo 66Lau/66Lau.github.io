@@ -32,7 +32,7 @@ Previously, I participated in the RoboMaster 2022 and RoboMaster 2023 robot comp
 Currently, I am responsible for the development of the robot's navigation system in combat scenarios and complex terrains.
 
 
-**<font color='red'>[Highlight]</font> I am looking for PhD/MS/RA to start in 2024/2025. Contact me if you are interested in my work!**
+**<font color='red'>[Highlight]</font> I am looking for MS/RA to start in 2024/2025. Contact me if you are interested in my work!**
 
 <br>
 
